@@ -79,7 +79,9 @@ func createGenderForm(input string) string {
 	return ""
 
 }
-
+func GetLanguages(t *I18n) (*map[string]TranslateStrings) {
+	return &t.languages;
+}
 // CheckLanguageConsistency checks if a language is consistent
 // with the other languages, it checks if the translations keys
 // are the same in all languages
