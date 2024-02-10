@@ -1,4 +1,4 @@
-module github.com/eduardolat/goeasyi18n
+module github.com/Neko111/goeasyi18n
 
 go 1.19
 
